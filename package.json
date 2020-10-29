@@ -1,0 +1,32 @@
+{
+  "name": "fancy-units",
+  "version": "2.3.15",
+  "description": "Convert between quantities in different units",
+  "main": "lib",
+  "dependencies": {
+    "lodash.keys": "4.2.x",
+    "lodash.foreach": "4.5.x"
+  },
+  "devDependencies": {
+    "assert-diff": "^3.0.1",
+    "jake": "10.8.2",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "jake test --trace",
+    "prettify": "prettier -w \"./**/*.{js,jsx,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fix-me/fancy-units.git"
+  },
+  "keywords": [
+    "metric",
+    "imperial",
+    "convert",
+    "ratio",
+    "fraction"
+  ],
+  "author": "fix-me",
+  "license": "MIT"
+}
